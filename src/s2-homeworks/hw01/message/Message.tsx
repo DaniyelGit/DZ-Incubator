@@ -8,7 +8,6 @@ export type MessagePropsType = {
 }
 
 
-// нужно отобразить приходящие данные
 const Message = (props: MessagePropsType) => {
 
     return (
@@ -20,15 +19,15 @@ const Message = (props: MessagePropsType) => {
                 />
                 <div className={s.text}>
                     <div id={'hw1-name-' + props.message.id} className={s.name}>
-                       <h3>{props.message.user.name}</h3>
+                       {props.message.user.name}
                     </div>
-                    <pre id={'hw1-text-' + props.message.id} className={s.messageText}>
-                        <p>{props.message.message.text}</p>
-                    </pre>
+                    <p id={'hw1-text-' + props.message.id} className={s.messageText}>
+                        {props.message.message.text}
+                    </p>
                 </div>
             </div>
             <div id={'hw1-time-' + props.message.id} className={s.time}>
-                <span>{props.message.message.time}</span>
+                {props.message.message.time}
             </div>
         </div>
     )
