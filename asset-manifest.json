@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/DZ-Incubator/static/css/main.77c5f45a.css",
-    "main.js": "/DZ-Incubator/static/js/main.282b9ade.js",
+    "main.css": "/DZ-Incubator/static/css/main.021d8d61.css",
+    "main.js": "/DZ-Incubator/static/js/main.a86afd88.js",
     "static/js/787.66cb4309.chunk.js": "/DZ-Incubator/static/js/787.66cb4309.chunk.js",
     "static/media/avatar.png": "/DZ-Incubator/static/media/avatar.d947cb9d0d13765666b6.png",
     "index.html": "/DZ-Incubator/index.html",
-    "main.77c5f45a.css.map": "/DZ-Incubator/static/css/main.77c5f45a.css.map",
-    "main.282b9ade.js.map": "/DZ-Incubator/static/js/main.282b9ade.js.map",
+    "main.021d8d61.css.map": "/DZ-Incubator/static/css/main.021d8d61.css.map",
+    "main.a86afd88.js.map": "/DZ-Incubator/static/js/main.a86afd88.js.map",
     "787.66cb4309.chunk.js.map": "/DZ-Incubator/static/js/787.66cb4309.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.77c5f45a.css",
-    "static/js/main.282b9ade.js"
+    "static/css/main.021d8d61.css",
+    "static/js/main.a86afd88.js"
   ]
 }
