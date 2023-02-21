@@ -36,6 +36,7 @@ const Stand = () => {
                             )
                             setValue('')
                         }}
+                        spanClassName={s.test}
                     />
                 </div>
             </div>
