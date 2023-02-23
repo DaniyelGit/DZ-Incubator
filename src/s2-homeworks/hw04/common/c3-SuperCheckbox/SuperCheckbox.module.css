@@ -16,10 +16,12 @@
     width: 18px;
     height: 18px;
 
+    padding: 0;
+
     background-repeat: no-repeat;
     background-position: center center;
 
-    /* background-size: 90% 90%; */
+     /*background-size: 90% 90%;*/
     vertical-align: middle;
     margin-right: 8px;
     border-radius: 3px;
