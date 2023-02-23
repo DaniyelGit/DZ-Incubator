@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import s from './Stand.module.css'
+import b from './common/c2-SuperButton/SuperButton.module.css'
 import SuperInputText from './common/c1-SuperInputText/SuperInputText'
 import SuperCheckbox from './common/c3-SuperCheckbox/SuperCheckbox'
 import SuperButton from './common/c2-SuperButton/SuperButton'
@@ -36,7 +37,6 @@ const Stand = () => {
                             )
                             setValue('')
                         }}
-                        spanClassName={s.test}
                     />
                 </div>
             </div>
@@ -44,7 +44,7 @@ const Stand = () => {
             <div className={s.buttons}>
                 {/*обычная кнопка:*/}
                 <div>
-                    <SuperButton id={'hw4-super-button-default'}>
+                    <SuperButton id={'hw4-super-button-default'} className={b.default}>
                         default
                     </SuperButton>
                 </div>
