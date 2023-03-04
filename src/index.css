@@ -19,3 +19,16 @@ code {
     font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.container {
+    width: 1220px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+#hw5-page-pre-junior {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 50px;
+}

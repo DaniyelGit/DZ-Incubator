@@ -13,7 +13,7 @@ export const PATH = {
 
 function Pages() {
     return (
-        <div>
+        <div className={'container'}>
             {/*Routes выбирает первый подходящий роут*/}
             <Routes>
                 {/*роутинг будут писать студенты*/}
