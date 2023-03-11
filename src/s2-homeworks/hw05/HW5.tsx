@@ -1,7 +1,11 @@
 import React from 'react'
-import { HashRouter } from 'react-router-dom'
+import {HashRouter, Routes, Route, Navigate} from 'react-router-dom'
 import { Layout } from './layout/Layout'
-import Pages from './Pages'
+import Pages, {PATH} from './Pages'
+import PreJunior from "./pages/PreJunior";
+import Junior from "./pages/Junior";
+import JuniorPlus from "./pages/JuniorPlus";
+import Error404 from "./pages/Error404";
 
 /*
 * 1 - в файле Pages.tsx дописать роуты на все страницы

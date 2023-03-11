@@ -40,7 +40,7 @@ const MessageSender = (props: any) => {
     }
 
     return (
-        <div>
+        <div style={{display: 'flex', flexDirection: 'column'}}>
             {messages.map((m) => (
                 <M key={'message' + m.id} message={m} />
             ))}
