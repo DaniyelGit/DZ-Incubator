@@ -32,9 +32,11 @@ const SuperEditableSpan: React.FC<SuperEditableSpanType> = (
         autoFocus,
         onBlur,
         onEnter,
+
         spanProps,
 
-        ...restProps // все остальные пропсы попадут в объект restProps
+         // все остальные пропсы попадут в объект restProps
+        ...restProps
     }
 ) => {
     const [editMode, setEditMode] = useState<boolean>(false)
