@@ -1,4 +1,4 @@
-import React, {useState} from 'react'
+import React, {useEffect, useState} from 'react'
 import SuperButton from '../hw04/common/c2-SuperButton/SuperButton'
 import {restoreState} from '../hw06/localStorage/localStorage'
 import s from './Clock.module.css'
@@ -110,3 +110,36 @@ function Clock() {
 }
 
 export default Clock
+
+/*export const Counter = () => {
+   const [count, setCount] = useState(0);
+   const [timerId, setTimerId] = useState<number | undefined>(undefined)
+
+   useEffect(() => {
+      if (timerId) {
+         return () => clearInterval(timerId)
+      }
+   }, [timerId])
+
+   const startCount = () => {
+      const id = window.setInterval(() => {
+         setCount(count => count + 1);
+      }, 1000)
+      setTimerId(id);
+   }
+
+   const stopCount = () => {
+      clearInterval(timerId);
+      setTimerId(undefined);
+   }
+
+   return (
+     <>
+      <span>{count}</span>
+        <button onClick={startCount}>start</button>
+        <button onClick={stopCount}>stop</button>
+     </>
+   )
+}*/
+
+

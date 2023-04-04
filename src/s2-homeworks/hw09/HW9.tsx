@@ -1,5 +1,5 @@
 import React from 'react'
-import Clock from './Clock'
+import Clock, {Counter} from './Clock'
 import s2 from '../../s1-main/App.module.css'
 
 /*
@@ -16,6 +16,7 @@ const HW9 = () => {
 
             <div className={s2.hw}>
                 <Clock />
+               <Counter/>
             </div>
         </div>
     )
