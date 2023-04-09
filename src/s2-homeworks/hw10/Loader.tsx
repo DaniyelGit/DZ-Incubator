@@ -1,13 +1,11 @@
 import s from './Loader.module.css'
-import preloader from './preloader.svg';
+import preloader from './preloader.png';
 
 export const Loader = () => {
 
 
    return (
-      <div className={s.loader}/>
-      /*<div>
-         <img src={preloader} alt="preloader" className={s.loader}/>
-      </div>*/
+      // <div className={s.loader}/>
+      <img src={preloader} alt="preloader" className={s.loader}/>
    )
 }
