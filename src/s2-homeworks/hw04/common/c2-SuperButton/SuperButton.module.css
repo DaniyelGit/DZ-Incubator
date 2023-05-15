@@ -61,4 +61,6 @@
 }
 
 .button:disabled {
+    padding: 5px 0 5px;
+    width: 176px;
 }
