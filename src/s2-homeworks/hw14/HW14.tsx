@@ -38,14 +38,17 @@ const HW14 = () => {
                     setTechs(res.data.techs)
 
                 }
-                setLoading(false);
             })
+           .finally(() => {
+               setLoading(false);
+           })
+
     }
 
     const onChangeText = (value: string) => {
         setFind(value)
         // делает студент
-
+        setSearchParams();
         // добавить/заменить значение в квери урла
         // setSearchParams(
 
