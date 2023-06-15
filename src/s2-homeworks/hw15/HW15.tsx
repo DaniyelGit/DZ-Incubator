@@ -85,7 +85,7 @@ const HW15 = () => {
     const mappedTechs = techs.map(t => (
         <div key={t.id} className={s.row}>
             <div id={'hw15-tech-' + t.id} className={s.tech}>
-                {t.tech}e
+                {t.tech}
             </div>
 
             <div id={'hw15-developer-' + t.id} className={s.developer}>
